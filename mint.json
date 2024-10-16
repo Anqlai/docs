@@ -1,91 +1,66 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Quantify Lab's GAT",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "primary": "#0069ED",
+    "light": "#4D9CFF",
+    "dark": "#0050B4"
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@quantifylabs.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get Started",
+    "url": "https://www.quantifylabs.com/gat-signup"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "API Reference",
+      "icon": "rectangle-terminal",
+      "url": "api-reference"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "icon": "discord",
+      "url": "https://discord.gg/quantifylabs"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "group": "Getting Started",
+      "pages": ["introduction", "getting-started"]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
+      "group": "Core Concepts",
+      "pages": ["core-concepts"]
     },
     {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "group": "Features",
+      "pages": ["features"]
     },
     {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "User Guide",
+      "pages": ["user-guide"]
+    },
+    {
+      "group": "Advanced Usage",
+      "pages": ["advanced-usage"]
+    },
+    {
+      "group": "Resources",
+      "pages": ["use-cases", "faqs", "troubleshooting", "release-notes", "community-support"]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "twitter": "https://twitter.com/quantifylabs",
+    "github": "https://github.com/quantifylabs",
+    "linkedin": "https://www.linkedin.com/company/quantifylabs"
   }
 }
