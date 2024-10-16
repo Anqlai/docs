@@ -1,0 +1,118 @@
+---
+title: 'Troubleshooting GAT'
+description: 'Resolve common issues and get back to leveraging your data with GAT'
+---
+
+# Troubleshooting GAT
+
+Encountering an issue with GAT? Don't worry – we've got you covered. This guide addresses common problems and provides step-by-step solutions to get you back on track quickly.
+
+## Connection Issues
+
+If you're having trouble connecting to your data sources, try these steps:
+
+<AccordionGroup>
+  <Accordion title="Unable to Connect to Data Source">
+    1. Check your internet connection
+    2. Verify your credentials for the data source
+    3. Ensure you have the necessary permissions in the source system
+    4. Try disconnecting and reconnecting the data source
+    5. Check if the data source is operational and not undergoing maintenance
+  </Accordion>
+  <Accordion title="Sync Failing or Timing Out">
+    1. For large datasets, increase the sync timeout in GAT settings
+    2. Check if there are any API limits on your data source
+    3. Try syncing a smaller subset of data to isolate the issue
+    4. Verify if there have been any schema changes in your data source
+  </Accordion>
+</AccordionGroup>
+
+<Note>
+If issues persist, please contact our support team with the error message and the steps you've tried.
+</Note>
+
+## Query-Related Issues
+
+Experiencing problems with your queries? Here are some common solutions:
+
+<CardGroup cols={2}>
+  <Card title="No Results Returned" icon="magnifying-glass-minus">
+    - Verify that your data source is properly synced
+    - Check if your query is too specific; try broadening it
+    - Ensure you have permission to access the queried data
+  </Card>
+  <Card title="Unexpected Results" icon="magnifying-glass-exclamation">
+    - Double-check your query for typos or ambiguities
+    - Verify the date ranges in your query
+    - Check if there have been recent changes to your data structure
+  </Card>
+  <Card title="Slow Query Performance" icon="hourglass-half">
+    - Try simplifying your query
+    - Check if you're querying across a very large date range
+    - Verify if multiple data sources are being queried simultaneously
+  </Card>
+  <Card title="Error in Natural Language Processing" icon="language">
+    - Rephrase your query using simpler terms
+    - Break complex queries into smaller, more specific questions
+    - Check for industry-specific jargon that GAT might not understand
+  </Card>
+</CardGroup>
+
+## Dashboard and Visualization Issues
+
+Problems with your dashboards or visualizations? Try these fixes:
+
+<Steps>
+  <Step title="Dashboards Not Loading">
+    Refresh your browser and clear your cache. If the issue persists, check your internet connection and try accessing GAT from a different browser.
+  </Step>
+  <Step title="Visualizations Not Updating">
+    Verify that the data source is synced and up-to-date. Try manually refreshing the dashboard or rebuilding the visualization.
+  </Step>
+  <Step title="Incorrect Data in Visualizations">
+    Double-check the query powering the visualization. Ensure that date ranges and filters are set correctly.
+  </Step>
+</Steps>
+
+## Account and Access Issues
+
+<AccordionGroup>
+  <Accordion title="Unable to Log In">
+    1. Verify that you're using the correct email address and password
+    2. Check if caps lock is on
+    3. Try resetting your password
+    4. Ensure your account hasn't been deactivated by your administrator
+  </Accordion>
+  <Accordion title="Missing Features or Data">
+    1. Check your user permissions with your GAT administrator
+    2. Verify that your subscription includes the features you're trying to access
+    3. Ensure you're not using an outdated version of GAT (if applicable)
+  </Accordion>
+</AccordionGroup>
+
+## Performance Optimization
+
+If you're experiencing general performance issues:
+
+<Check>
+- Limit the number of concurrent queries and data syncs
+- Optimize your queries to fetch only necessary data
+- Consider upgrading your GAT plan for improved performance and higher query limits
+- Regularly clean up unused dashboards and saved queries
+</Check>
+
+## Still Stuck?
+
+If you've tried these troubleshooting steps and are still experiencing issues, we're here to help!
+
+<Card title="Contact Support" icon="headset" iconType="duotone">
+  Our dedicated support team is ready to assist you. Please provide as much detail as possible about the issue, including:
+  - Steps to reproduce the problem
+  - Any error messages you've encountered
+  - Screenshots of the issue (if applicable)
+  - Your GAT version and browser information
+
+  [Contact Support](mailto:support@gat.quantifylabs.ai)
+</Card>
+
+Remember, we're constantly working to improve GAT and appreciate your feedback. If you encounter any bugs or have suggestions for improvements, please let us know!
