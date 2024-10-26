@@ -2,7 +2,7 @@
   "name": "Quantify Lab's GAT",
   "logo": {
     "light": "logo/_Transparent_logo_(1)-transformed.png",
-    "dark": "/logo/dark.svg"
+    "dark": "logo/_Transparent_logo_(1)-transformed.png"
   },
   "favicon": "/favicon.png",
   "colors": {
